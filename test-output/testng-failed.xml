@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="demoqa.demoqaform">
+      <class name="demoqa.widget">
         <methods>
+          <include name="accordianTest"/>
           <include name="setUp"/>
-          <include name="name_email_Test"/>
         </methods>
-      </class> <!-- demoqa.demoqaform -->
+      </class> <!-- demoqa.widget -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

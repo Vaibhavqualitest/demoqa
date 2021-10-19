@@ -27,10 +27,10 @@ public class demoqaform {
 		driver.findElement(By.id("lastName")).sendKeys("Bajpai");
 		driver.findElement(By.id("userEmail")).sendKeys("demo@gmail.com");
 		driver.findElement(By.cssSelector("#userNumber")).sendKeys("9898989898");
-//		driver.findElement(By.cssSelector("#dateOfBirthInput")).clear();
-//		driver.findElement(By.cssSelector("#dateOfBirth > div.react-datepicker__tab-loop > div.react-datepicker-popper > div > div > div.react-datepicker__month-container > div.react-datepicker__header > div.react-datepicker__header__dropdown.react-datepicker__header__dropdown--select > div.react-datepicker__year-dropdown-container.react-datepicker__year-dropdown-container--select > select")).sendKeys("18 Nov 2001");
+		driver.findElement(By.cssSelector("#dateOfBirthInput")).clear();
+		driver.findElement(By.cssSelector("#dateOfBirthInput")).sendKeys("18 Nov 2001");
 		Thread.sleep(2000);
-//		driver.findElement(By.cssSelector("#subjectsContainer > div > div.subjects-auto-complete__value-container.subjects-auto-complete__value-container--is-multi.css-1hwfws3")).sendKeys("Test Automation");
+		driver.findElement(By.cssSelector("#subjectsContainer > div > div.subjects-auto-complete__value-container.subjects-auto-complete__value-container--is-multi.css-1hwfws3")).sendKeys("Test Automation");
 		
 //		driver.findElement(By.cssSelector("#hobbiesWrapper > div.col-md-9.col-sm-12 > div:nth-child(3) > label")).click();
         driver.findElement(By.id("uploadPicture")).sendKeys("C:\\Users\\vaibhav.bajpai\\Downloads\\sample.png");
